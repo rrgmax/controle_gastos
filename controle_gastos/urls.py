@@ -21,5 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', listagem, name='url_listagem'),
     path('nova', nova_transacao, name='url_nova'),
+    path('update/<int:pk>/'),
     path('home', home)
 ]
