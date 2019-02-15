@@ -1,5 +1,4 @@
 from django.db import models
-from .form import Transacao
 
 class Categoria(models.Model):
     nome = models.CharField(max_length=100)
