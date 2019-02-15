@@ -31,6 +31,7 @@ def nova_transacao(request):
     data['form'] = form
     return render(request, 'contas/form.html', data)
 
+
 def update(request, pk):
     data = {}
     transacao = Transacao.objects.get(pk=pk)
